@@ -1,1 +1,1 @@
-This files are the Basic Calculator.
+This files are for the Basic Calculator.
