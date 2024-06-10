@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<HTML lang="EN">
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <title>Basic calculator</title>
+ <!--Add metatags,title,and link to css files here--> 
+</head>
+<body>
+<div class="whole-page">
+<div class="display">
+<p class="calculation-display" id="calculation-display">
+</p class="result-display" id="result-display">0</p>
+</div>
+<div class="buttons">
+ <p>
+<button class="num-but">1</button> 
+<button class="num-but">2</button>
+<buton class="num-but">3</button> 
+<button class="Blue-button">+</button>
+</p>
+<p>
+<button class="num-but">4</button>
+<button class="num-but">5</button>
+<button class="num-but">6</button>
+<button class="Blue-button"></button>  
+</p>
+<p>
+ <button class="num-but">4</button>   
+<button class="num-but">5</button>
+<button class =num-but">9</button>
+<button class="Blue-button">*</button>
+</p>
+<button class="num-but">0</button>
+<button class="num-but">.</button>
+<button class="num-but">=</button>
+<button class="Blue-button"></button>
+</p>
+<p>
+<button class="clear-button">clear</button>
+<button class ="Del-button">Del</button>
+</p>
+</div>
+</div>
+<!--Link Js file here-->
+<script src="index.js"></script>
+<button class="num-but" onclick="updateCalculation ('1');">1</button>
+<button class="num-but" onclick="updateCalculation ('2');">2</button>
+<!--<!-other buttons with similar onclick atributes here -->
+<button class="num-but" onclick="calculateResult();">=</button>
+<button class="clear-button" onclick="clearDisplay()">clear</button>
+<button class="Del-button" onclick="deleteLastCharacter()" id="Del-button">
+Del
+</button>
+</body>
+</html>
